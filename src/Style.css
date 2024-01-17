@@ -1,0 +1,44 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+body {
+  background-color: #eee;
+  margin: 0;
+  margin-top: 20px;
+}
+form {
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 40px;
+  text-align: left;
+  border-radius: 10px;
+  background: white;
+}
+label {
+  color: #aaa;
+  display: inline-block;
+  margin: 25px 0 15px;
+  font-size: 0.6em;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+input {
+  display: block;
+  padding: 10px 6px;
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  color: #555;
+}
+.btn {
+  text-align: center;
+  margin-top: 60px;
+}
+.btn-submit {
+  background-color: rgb(241, 99, 28);
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+}
